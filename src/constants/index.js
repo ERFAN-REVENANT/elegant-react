@@ -40,16 +40,84 @@ export const sectionText = [
   {
     id: 1,
     text: "Here you will find everything you need. Our collection is constantly expanding to suit your unique style.",
-    state: false
+    state: false,
   },
   {
     id: 2,
     text: "The women's clothing in our new collection isboth comfortable and stylish, ideal for bothcasual days and special occasions, all ataffordable prices.",
-    state: false
+    state: false,
   },
   {
     id: 3,
     text: "Explore New Collection",
-    state: true
+    state: true,
+  },
+];
+
+export const modalCards = [
+  {
+    id: 1,
+    name: "John Doe",
+    text: "I was surprised by how versatile these pieces are. I can wear them both casually and formally without any issue. The quality is top-notch.",
+    image: "https://via.placeholder.com/50",
+    style: {
+      top: "50%",
+      left: "10%",
+      transform: "translate(-50%, -50%) rotate(-15deg)",
+      zIndex: 1,
+      filter: "brightness(0.4)", // Darkens the card
+    },
+  },
+  {
+    id: 2,
+    name: "Leon Korendovich",
+    text: "The Lightweight Trench Coat is an essential for any season. It’s practical, stylish, and the fabric feels amazing. I’m thrilled with the purchase!",
+    image: "https://via.placeholder.com/50",
+    style: {
+      top: "50%",
+      left: "30%",
+      transform: "translate(-50%, -50%) rotate(10deg)",
+      zIndex: 2,
+      filter: "brightness(0.4)", // Darkens the card
+    },
+  },
+  {
+    id: 3,
+    name: "Eleanora Rivera",
+    text: "The Neutral Oversize pieces are exactly what I was looking for—stylish, comfortable, and perfect for any occasion. The neutral tones make them easy to mix and match.",
+    image: "https://via.placeholder.com/50",
+    style: {
+      top: "50%",
+      left: "50%",
+      transform: "translate(-50%, -50%) rotate(0deg)",
+      zIndex: 3,
+      filter: "brightness(1)", // Keep full brightness for the center card
+    },
+  },
+  {
+    id: 4,
+    name: "Mirailda Volskih",
+    text: "These Silk Dresses are exactly what I needed for both casual and luxurious settings. The colors are stunning.",
+    image: "https://via.placeholder.com/50",
+    style: {
+      top: "50%",
+      left: "70%",
+      transform: "translate(-50%, -50%) rotate(-10deg)",
+      zIndex: 1,
+      filter: "brightness(0.4)", // Darkens the card
+    },
+  },
+  {
+    id: 5,
+    name: "Jane Smith",
+    text: "The materials feel luxurious, and the fit is perfect. I’ve gotten so many compliments every time I wear these pieces. Highly recommend!",
+    image: "https://via.placeholder.com/50",
+    style: {
+      top: "50%",
+      left: "90%",
+      transform: "translate(-50%, -50%) rotate(15deg)",
+      zIndex: 2,
+      filter: "brightness(0.4)", // Darkens the card
+    },
   },
 ];
