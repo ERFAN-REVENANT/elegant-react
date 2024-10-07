@@ -558,14 +558,12 @@ video {
   pointer-events: none;
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+.relative {
+  position: relative;
 }
 
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
+.m-auto {
+  margin: auto;
 }
 
 .mx-8 {
@@ -573,8 +571,102 @@ video {
   margin-right: 2rem;
 }
 
+.my-\[\] {
+  margin-top: ;
+  margin-bottom: ;
+}
+
+.my-\[30px\] {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.my-\[40px\] {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.my-\[70px\] {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.my-\[100px\] {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.my-\[140px\] {
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .flex {
   display: flex;
+}
+
+.h-\[150px\] {
+  height: 150px;
+}
+
+.h-\[300px\] {
+  height: 300px;
+}
+
+.h-\[0px\] {
+  height: 0px;
+}
+
+.h-\[200px\] {
+  height: 200px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[470px\] {
+  width: 470px;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[3rem\] {
+  width: 3rem;
+}
+
+.w-\[rem\] {
+  width: rem;
+}
+
+.w-\[20rem\] {
+  width: 20rem;
+}
+
+.w-\[40rem\] {
+  width: 40rem;
+}
+
+.w-\[41rem\] {
+  width: 41rem;
+}
+
+.w-\[42rem\] {
+  width: 42rem;
 }
 
 .cursor-pointer {
@@ -585,12 +677,63 @@ video {
   list-style-type: none;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .items-center {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.rounded-\[30px\] {
+  border-radius: 30px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-\[35px\] {
+  border-radius: 35px;
+}
+
+.border-\[12px\] {
+  border-width: 12px;
+}
+
+.border-\[\#18181b\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(24 24 27 / var(--tw-border-opacity));
+}
+
+.bg-\[\#18181b\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 24 27 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#53a826\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(83 168 38 / var(--tw-bg-opacity));
 }
 
 .bg-primary {
@@ -598,24 +741,93 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .p-10 {
   padding: 2.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-9 {
+  padding: 2.25rem;
+}
+
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
+}
+
+.py-\[40px\] {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.py-\[50px\] {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.py-\[80px\] {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.py-\[90px\] {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-lufga-bold {
+  font-family: Lufga Bold, sans-serif;
+}
+
+.font-lufga-light {
+  font-family: Lufga Light, sans-serif;
 }
 
 .font-lufga-regular {
   font-family: Lufga Regular, sans-serif;
 }
 
-.font-lufga-thin {
-  font-family: Lufga Thin, sans-serif;
+.text-\[1\.5rem\] {
+  font-size: 1.5rem;
 }
 
-.font-lufga-medium {
-  font-family: Lufga Medium, sans-serif;
+.text-\[25rem\] {
+  font-size: 25rem;
 }
 
-.font-lufga-light {
-  font-family: Lufga Light, sans-serif;
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.leading-\[19rem\] {
+  line-height: 19rem;
 }
 
 .tracking-wide {
@@ -627,16 +839,24 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.opacity-60 {
-  opacity: 0.6;
+.text-opacity-70 {
+  --tw-text-opacity: 0.7;
 }
 
-.opacity-70 {
-  opacity: 0.7;
+.text-opacity-60 {
+  --tw-text-opacity: 0.6;
+}
+
+.text-opacity-50 {
+  --tw-text-opacity: 0.5;
 }
 
 .opacity-40 {
   opacity: 0.4;
+}
+
+.opacity-70 {
+  opacity: 0.7;
 }
 
 .transition-opacity {
@@ -831,4 +1051,17 @@ video {
 
 .hover\:opacity-100:hover {
   opacity: 1;
+}
+
+.\[\&\>img\]\:odd\:rounded-full:nth-child(odd)>img {
+  border-radius: 9999px;
+}
+
+.\[\&\>img\]\:even\:rounded-\[50px\]:nth-child(even)>img {
+  border-radius: 50px;
+}
+
+.\[\&\>span\]\:text-yellow-400>span {
+  --tw-text-opacity: 1;
+  color: rgb(250 204 21 / var(--tw-text-opacity));
 }
