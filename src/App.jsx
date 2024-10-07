@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import "../public/tailwind.css";
+import Header from "./components/Header";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div className="bg-primary">
+      <Header></Header>
+    </div>
+  );
+};
 
-export default App
+export default App;

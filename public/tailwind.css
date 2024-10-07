@@ -554,6 +554,101 @@ video {
   display: none;
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.list-none {
+  list-style-type: none;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.font-lufga-regular {
+  font-family: Lufga Regular, sans-serif;
+}
+
+.font-lufga-thin {
+  font-family: Lufga Thin, sans-serif;
+}
+
+.font-lufga-medium {
+  font-family: Lufga Medium, sans-serif;
+}
+
+.font-lufga-light {
+  font-family: Lufga Light, sans-serif;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.opacity-60 {
+  opacity: 0.6;
+}
+
+.opacity-70 {
+  opacity: 0.7;
+}
+
+.opacity-40 {
+  opacity: 0.4;
+}
+
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
 @font-face {
   font-family: 'Lufga Regular';
 
@@ -561,7 +656,7 @@ video {
 
   font-weight: normal;
 
-  src: local('Lufga Regular'), url('LufgaRegular.woff') format('woff');
+  src: local('Lufga Regular'), url('./assets/fonts/LufgaRegular.woff') format('woff');
 }
 
 @font-face {
@@ -571,7 +666,7 @@ video {
 
   font-weight: normal;
 
-  src: local('Lufga Italic'), url('LufgaItalic.woff') format('woff');
+  src: local('Lufga Italic'), url('./assets/fonts/LufgaItalic.woff') format('woff');
 }
 
 @font-face {
@@ -581,7 +676,7 @@ video {
 
   font-weight: normal;
 
-  src: local('Lufga Thin'), url('LufgaThin.woff') format('woff');
+  src: local('Lufga Thin'), url('./assets/fonts/LufgaThin.woff') format('woff');
 }
 
 @font-face {
@@ -591,7 +686,7 @@ video {
 
   font-weight: normal;
 
-  src: local('Lufga Thin Italic'), url('LufgaThinItalic.woff') format('woff');
+  src: local('Lufga Thin Italic'), url('./assets/fonts/LufgaThinItalic.woff') format('woff');
 }
 
 @font-face {
@@ -601,7 +696,7 @@ video {
 
   font-weight: normal;
 
-  src: local('Lufga ExtraLight'), url('LufgaExtraLight.woff') format('woff');
+  src: local('Lufga ExtraLight'), url('./assets/fonts/LufgaExtraLight.woff') format('woff');
 }
 
 @font-face {
@@ -611,7 +706,7 @@ video {
 
   font-weight: normal;
 
-  src: local('Lufga ExtraLight Italic'), url('LufgaExtraLightItalic.woff') format('woff');
+  src: local('Lufga ExtraLight Italic'), url('./assets/fonts/LufgaExtraLightItalic.woff') format('woff');
 }
 
 @font-face {
@@ -621,7 +716,7 @@ video {
 
   font-weight: normal;
 
-  src: local('Lufga Light'), url('LufgaLight.woff') format('woff');
+  src: local('Lufga Light'), url('./assets/fonts/LufgaLight.woff') format('woff');
 }
 
 @font-face {
@@ -631,7 +726,7 @@ video {
 
   font-weight: normal;
 
-  src: local('Lufga Light Italic'), url('LufgaLightItalic.woff') format('woff');
+  src: local('Lufga Light Italic'), url('./assets/fonts/LufgaLightItalic.woff') format('woff');
 }
 
 @font-face {
@@ -641,7 +736,7 @@ video {
 
   font-weight: normal;
 
-  src: local('Lufga Medium'), url('LufgaMedium.woff') format('woff');
+  src: local('Lufga Medium'), url('./assets/fonts/LufgaMedium.woff') format('woff');
 }
 
 @font-face {
@@ -651,7 +746,7 @@ video {
 
   font-weight: normal;
 
-  src: local('Lufga Medium Italic'), url('LufgaMediumItalic.woff') format('woff');
+  src: local('Lufga Medium Italic'), url('./assets/fonts/LufgaMediumItalic.woff') format('woff');
 }
 
 @font-face {
@@ -661,7 +756,7 @@ video {
 
   font-weight: normal;
 
-  src: local('Lufga SemiBold'), url('LufgaSemiBold.woff') format('woff');
+  src: local('Lufga SemiBold'), url('./assets/fonts/LufgaSemiBold.woff') format('woff');
 }
 
 @font-face {
@@ -671,7 +766,7 @@ video {
 
   font-weight: normal;
 
-  src: local('Lufga SemiBold Italic'), url('LufgaSemiBoldItalic.woff') format('woff');
+  src: local('Lufga SemiBold Italic'), url('./assets/fonts/LufgaSemiBoldItalic.woff') format('woff');
 }
 
 @font-face {
@@ -681,7 +776,7 @@ video {
 
   font-weight: normal;
 
-  src: local('Lufga Bold'), url('LufgaBold.woff') format('woff');
+  src: local('Lufga Bold'), url('./assets/fonts/LufgaBold.woff') format('woff');
 }
 
 @font-face {
@@ -691,7 +786,7 @@ video {
 
   font-weight: normal;
 
-  src: local('Lufga Bold Italic'), url('LufgaBoldItalic.woff') format('woff');
+  src: local('Lufga Bold Italic'), url('./assets/fonts/LufgaBoldItalic.woff') format('woff');
 }
 
 @font-face {
@@ -701,7 +796,7 @@ video {
 
   font-weight: normal;
 
-  src: local('Lufga ExtraBold'), url('LufgaExtraBold.woff') format('woff');
+  src: local('Lufga ExtraBold'), url('./assets/fonts/LufgaExtraBold.woff') format('woff');
 }
 
 @font-face {
@@ -711,7 +806,7 @@ video {
 
   font-weight: normal;
 
-  src: local('Lufga ExtraBold Italic'), url('LufgaExtraBoldItalic.woff') format('woff');
+  src: local('Lufga ExtraBold Italic'), url('./assets/fonts/LufgaExtraBoldItalic.woff') format('woff');
 }
 
 @font-face {
@@ -721,7 +816,7 @@ video {
 
   font-weight: normal;
 
-  src: local('Lufga Black'), url('LufgaBlack.woff') format('woff');
+  src: local('Lufga Black'), url('./assets/fonts/LufgaBlack.woff') format('woff');
 }
 
 @font-face {
@@ -731,5 +826,9 @@ video {
 
   font-weight: normal;
 
-  src: local('Lufga Black Italic'), url('LufgaBlackItalic.woff') format('woff');
+  src: local('Lufga Black Italic'), url('./assets/fonts/LufgaBlackItalic.woff') format('woff');
+}
+
+.hover\:opacity-100:hover {
+  opacity: 1;
 }
