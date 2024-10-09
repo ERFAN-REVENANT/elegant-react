@@ -137,32 +137,34 @@ export const saleitems1 = [
     text: "Fall Sale 50% Off",
     text2: "Shop Now",
     link: "#",
-    style: {
-      text2: "text-lg font-lufga-thin", // Tailwind class for font and text size
-    },
   },
 ];
+export const saleitems2 = [{ id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }];
 
 export const faqData = [
   {
     number: "01",
     title: "What payment methods do you accept?",
-    description: "We accept credit cards, debit cards, PayPal, and other payment gateways.",
+    description:
+      "We accept credit cards, debit cards, PayPal, and other payment gateways.",
   },
   {
     number: "02",
     title: "How long does shipping take?",
-    description: "Shipping typically takes 5-7 business days. Expedited options are available.",
+    description:
+      "Shipping typically takes 5-7 business days. Expedited options are available.",
   },
   {
     number: "03",
     title: "What is your return policy?",
-    description: "You can return items within 30 days of purchase for a full refund or exchange.",
+    description:
+      "You can return items within 30 days of purchase for a full refund or exchange.",
   },
   {
     number: "04",
     title: "How do I track my order?",
-    description: "You will receive a tracking link via email once your order has shipped.",
+    description:
+      "You will receive a tracking link via email once your order has shipped.",
   },
   {
     number: "05",
@@ -172,12 +174,14 @@ export const faqData = [
   {
     number: "06",
     title: "How can I contact customer support?",
-    description: "You can reach us via the contact form on our website or by calling our hotline.",
+    description:
+      "You can reach us via the contact form on our website or by calling our hotline.",
   },
   {
     number: "07",
     title: "How do I know which size to order?",
-    description: "We offer a detailed size guide to help you select the right size.",
+    description:
+      "We offer a detailed size guide to help you select the right size.",
   },
   {
     number: "08",
@@ -186,5 +190,4 @@ export const faqData = [
   },
 ];
 
-
-export const saleitems2 = [{ id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }];
+export const contact = [{ id: 1 }, { id: 2 }, { id: 3, field:true }];

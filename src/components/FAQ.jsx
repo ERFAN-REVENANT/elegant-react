@@ -9,8 +9,8 @@ const FAQ = () => {
   };
 
   return (
-    <section className="flex flex-col items-center justify-center">
-      <h1 className="text-white font-lufga-medium text-center text-5xl w-[32rem] m-auto mb-10">
+    <section className="flex flex-col items-center justify-center mt-[150px]">
+      <h1 className="text-white font-lufga-medium text-center text-5xl w-[32rem] m-auto mb-10 ">
         FAQ
       </h1>
       <div className="w-full max-w-3xl">

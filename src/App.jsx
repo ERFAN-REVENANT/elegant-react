@@ -5,6 +5,7 @@ import Section from "./components/Section";
 import Clients from "./components/Clients";
 import Sale from "./components/Sale";
 import FAQ from "./components/FAQ";
+import LetsTalk from "./components/LetsTalk";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Clients></Clients>
       <Sale></Sale>
       <FAQ></FAQ>
+      <LetsTalk></LetsTalk>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import { arrowUpRight, image5, saleitems1, saleitems2 } from "../constants";
 
 const Sale = () => {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center m-auto mb-[200px]">
+    <section className="min-h-screen flex flex-col items-center justify-center m-auto ">
       <h1 className="text-white font-lufga-medium text-center text-5xl mt-10">
         Get Ready to Save Big!
       </h1>
