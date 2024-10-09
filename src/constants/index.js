@@ -18,6 +18,12 @@ export { default as mail } from "../assets/mail.png";
 export { default as shoppingCart } from "../assets/Shopping cart.png";
 export { default as youtube } from "../assets/YouTube.png";
 
+import U1 from "../assets/U1.png";
+import U2 from "../assets/U2.png";
+import U3 from "../assets/U3.png";
+import U4 from "../assets/U4.png";
+import U5 from "../assets/U5.png";
+
 // Header array
 export const header = [
   { id: 1, title: "Home" },
@@ -59,7 +65,7 @@ export const modalCards = [
     id: 1,
     name: "John Doe",
     text: "I was surprised by how versatile these pieces are. I can wear them both casually and formally without any issue. The quality is top-notch.",
-    image: "https://via.placeholder.com/50",
+    image: U3,
     style: {
       top: "50%",
       left: "10%",
@@ -72,7 +78,7 @@ export const modalCards = [
     id: 2,
     name: "Leon Korendovich",
     text: "The Lightweight Trench Coat is an essential for any season. It’s practical, stylish, and the fabric feels amazing. I’m thrilled with the purchase!",
-    image: "https://via.placeholder.com/50",
+    image: U5,
     style: {
       top: "50%",
       left: "30%",
@@ -85,7 +91,7 @@ export const modalCards = [
     id: 3,
     name: "Eleanora Rivera",
     text: "The Neutral Oversize pieces are exactly what I was looking for—stylish, comfortable, and perfect for any occasion. The neutral tones make them easy to mix and match.",
-    image: "https://via.placeholder.com/50",
+    image: U1,
     style: {
       top: "50%",
       left: "50%",
@@ -98,7 +104,7 @@ export const modalCards = [
     id: 4,
     name: "Mirailda Volskih",
     text: "These Silk Dresses are exactly what I needed for both casual and luxurious settings. The colors are stunning.",
-    image: "https://via.placeholder.com/50",
+    image: U4,
     style: {
       top: "50%",
       left: "70%",
@@ -111,7 +117,7 @@ export const modalCards = [
     id: 5,
     name: "Jane Smith",
     text: "The materials feel luxurious, and the fit is perfect. I’ve gotten so many compliments every time I wear these pieces. Highly recommend!",
-    image: "https://via.placeholder.com/50",
+    image: U2,
     style: {
       top: "50%",
       left: "90%",
@@ -121,3 +127,20 @@ export const modalCards = [
     },
   },
 ];
+
+export const saleitems1 = [
+  { id: 1, text: "", text2: "", link: "#" },
+  { id: 2, text: "", text2: "", link: "#" },
+  { id: 3, text: "", text2: "", link: "#" },
+  {
+    id: 4,
+    text: "Fall Sale 50% Off",
+    text2: "Shop Now",
+    link: "#",
+    style: {
+      text2: "text-lg font-lufga-thin", // Tailwind class for font and text size
+    },
+  },
+];
+
+export const saleitems2 = [{ id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }];

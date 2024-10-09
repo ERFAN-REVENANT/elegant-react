@@ -3,17 +3,17 @@ import { frame1, modalCards } from "../constants";
 
 const Clients = () => {
   return (
-    <section className="">
-      <h1 className="text-white font-lufga-medium text-center text-5xl w-[32rem] m-auto">
+    <section className="mb-[90px]">
+      <h1 className="text-white font-lufga-medium text-center text-5xl w-[32rem] m-auto ">
         We have already more than 12k clients
       </h1>
-      <div className="relative p-10 md:p-20 h-[500px] w-full z-10">
+      <div className="relative p-10 md:p-20 h-[500px] w-full z-10 overflow-hidden">
         {" "}
         {/* Ensure z-index on parent */}
         {modalCards.map((modal, index) => (
           <div
             key={index}
-            className={`absolute text-white p-8 rounded-[25px] w-[27rem] h-[16rem] transition-transform duration-300 hover:scale-105 bg-modal-bg font-normal flex flex-col justify-between`}
+            className={`absolute text-white p-8 rounded-[25px] w-[30rem] h-[16rem] pointer-events-none bg-modal-bg font-normal flex flex-col justify-between`}
             style={{
               ...modal.style,
               position: "absolute", // Ensure cards are absolute
