@@ -130,17 +130,42 @@ export const modalCards = [
 ];
 
 export const saleitems1 = [
-  { id: 1, text: "", text2: "", link: "#" },
-  { id: 2, text: "", text2: "", link: "#" },
-  { id: 3, text: "", text2: "", link: "#" },
+  {
+    id: 1,
+    text: "",
+    text2: "",
+    link: "#",
+    style: { backgroundPosition: "0% 0%", backgroundSize: "450%" },
+  },
+  {
+    id: 2,
+    text: "",
+    text2: "",
+    link: "#",
+    style: { backgroundPosition: "32% 05%", backgroundSize: "450%" },
+  },
+  {
+    id: 3,
+    text: "",
+    text2: "",
+    link: "#",
+    style: { backgroundPosition: "63% 03%", backgroundSize: "450%" },
+  },
   {
     id: 4,
     text: "Fall Sale 50% Off",
     text2: "Shop Now",
     link: "#",
+    style: { backgroundPosition: "100% 05%", backgroundSize: "450%" },
   },
 ];
-export const saleitems2 = [{ id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }];
+
+export const saleitems2 = [
+  { id: 1, style: { backgroundPosition: "05% 55%", backgroundSize: "450%" } },
+  { id: 2, style: { backgroundPosition: "32% 56%", backgroundSize: "450%" } },
+  { id: 3, style: { backgroundPosition: "62% 55%", backgroundSize: "450%" } },
+  { id: 4, style: { backgroundPosition: "91% 53%", backgroundSize: "450%" } },
+];
 
 export const faqData = [
   {
