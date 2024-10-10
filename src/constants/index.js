@@ -216,7 +216,15 @@ export const faqData = [
   },
 ];
 
-export const contact = [{ id: 1 }, { id: 2 }, { id: 3, field: true }];
+export const contact = [
+  { id: 1, style: { backgroundPosition: "0% 25%", backgroundSize: "250%" } },
+  { id: 2, style: { backgroundPosition: "70% 25%", backgroundSize: "250%" } },
+  {
+    id: 3,
+    field: true,
+    style: { backgroundPosition: "0% 55%", backgroundSize: "510%" },
+  },
+];
 
 // src/constants.js
 export const footerTitles = ["Pages", "Legal information", "Contact us"];
