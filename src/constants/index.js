@@ -12,11 +12,12 @@ export { default as arrowUp } from "../assets/Arrow up.png";
 export { default as chevronDown } from "../assets/Chevron down.png";
 export { default as chevronUp } from "../assets/Chevron up.png";
 export { default as elegant } from "../assets/elegant.png";
-export { default as facebook } from "../assets/Facebook.png";
 export { default as frame1 } from "../assets/Frame 1.png";
-export { default as mail } from "../assets/mail.png";
 export { default as shoppingCart } from "../assets/Shopping cart.png";
-export { default as youtube } from "../assets/YouTube.png";
+import facebook from "../assets/Facebook.png";
+import mail from "../assets/mail.png";
+import youtube from "../assets/YouTube.png";
+import instagram from "../assets/Instagram.png";
 
 import U1 from "../assets/U1.png";
 import U2 from "../assets/U2.png";
@@ -190,4 +191,27 @@ export const faqData = [
   },
 ];
 
-export const contact = [{ id: 1 }, { id: 2 }, { id: 3, field:true }];
+export const contact = [{ id: 1 }, { id: 2 }, { id: 3, field: true }];
+
+// src/constants.js
+export const footerTitles = ["Pages", "Legal information", "Contact us"];
+
+export const footerLinks = [
+  [
+    { name: "Home", url: "/home" },
+    { name: "New Collection", url: "/new-collection" },
+    { name: "Catalog", url: "/catalog" },
+    { name: "Delivery", url: "/delivery" },
+  ],
+  [
+    { name: "Privacy policy", url: "/privacy-policy" },
+    { name: "Terms & conditions", url: "/terms-conditions" },
+  ],
+];
+
+export const footerIcons = [
+  { name: "Mail", icon: mail, url: "mailto:example@mail.com" },
+  { name: "Facebook", icon: facebook, url: "https://facebook.com" },
+  { name: "Instagram", icon: instagram, url: "https://instagram.com" },
+  { name: "YouTube", icon: youtube, url: "https://youtube.com" },
+];

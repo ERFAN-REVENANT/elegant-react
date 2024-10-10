@@ -6,6 +6,7 @@ import Clients from "./components/Clients";
 import Sale from "./components/Sale";
 import FAQ from "./components/FAQ";
 import LetsTalk from "./components/LetsTalk";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Sale></Sale>
       <FAQ></FAQ>
       <LetsTalk></LetsTalk>
+      <Footer></Footer>
     </div>
   );
 };
