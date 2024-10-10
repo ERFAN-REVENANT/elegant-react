@@ -3,11 +3,11 @@ import { arrowUpRight, image5, saleitems1, saleitems2 } from "../constants";
 
 const Sale = () => {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center m-auto">
+    <section className="hidden md:hidden flex-col items-center justify-center m-auto min-h-screen lg:hidden xl:flex">
       <h1 className="text-white font-lufga-medium text-center text-5xl mt-10">
         Get Ready to Save Big!
       </h1>
-      <div className="grid grid-cols-4 items-center justify-center gap-5  p-10 min-h-screen mt-5 relative">
+      <div className="grid grid-cols-4 items-center justify-center gap-5 p-10 min-h-screen mt-5 relative">
         {/* First Set: saleitems1 */}
         {saleitems1.map((item, index) => (
           <div
