@@ -5,10 +5,10 @@ const Section = () => {
   return (
     <section className="items-center justify-center text-center pointer-events-none">
       {/* Header */}
-      <h1 className="relative text-white font-lufga-bold text-[25rem] leading-[19rem] z-4">
+      <h1 className="relative text-white font-lufga-bold text-[5rem] xl:text-[25rem] leading-[19rem] z-4">
         Elegant
       </h1>
-      <div className="flex items-center justify-center z-1">
+      <div className="flex flex-col lg:flex-row items-center justify-center z-1 gap-4">
         {sectionContent.map((item) => (
           <div
             key={item.id}
@@ -32,11 +32,11 @@ const Section = () => {
         ))}
       </div>
       {/* Section Text */}
-      <div className="flex items-center justify-center gap-5 mt-5 font-lufga-light">
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-5 mt-5 font-lufga-light">
         {sectionText.map((item) => (
           <div
             key={item.id}
-            className=" bg-[#18181b] w-[470px] h-[200px] p-9   text-left  rounded-[35px] flex items-center "
+            className="bg-[#18181b] w-full max-w-[470px] h-[200px] p-9 text-left rounded-[35px] flex items-center"
           >
             {item.state ? (
               <div className="flex items-center justify-center m-auto gap-2 text-xl text-white">
@@ -51,7 +51,7 @@ const Section = () => {
           </div>
         ))}
       </div>
-      <div className="[&>span]:text-yellow-400 text-white text-opacity-70 w-[42rem] text-xl font-lufga-light m-auto my-[140px]">
+      <div className="[&>span]:text-yellow-400 text-white text-opacity-70 w-full max-w-[42rem] text-xl font-lufga-light m-auto my-[140px]">
         At Elegant, we believe that <span>fashion is an art</span> form — one
         that should reflect individuality, confidence, and timeless beauty. Our
         journey began with a simple idea: to create clothing that not only fits

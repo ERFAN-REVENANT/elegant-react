@@ -4,7 +4,7 @@ import { frame1, modalCards } from "../constants";
 const Clients = () => {
   return (
     <section className="mb-[90px]">
-      <h1 className="text-white font-lufga-medium text-center text-xl md:text-5xl w-[32rem] m-auto ">
+      <h1 className="text-white font-lufga-medium text-center text-xl md:text-5xl md:w-[32rem] m-auto ">
         We have already more than 12k clients
       </h1>
       <div className="relative p-10 md:p-20 h-[500px] w-full z-10 overflow-hidden">
@@ -13,7 +13,7 @@ const Clients = () => {
         {modalCards.map((modal, index) => (
           <div
             key={index}
-            className={`absolute text-white p-8 rounded-[25px] w-[30rem] h-[16rem] pointer-events-none bg-modal-bg font-normal flex flex-col justify-between`}
+            className={`absolute text-white p-8 rounded-[25px] w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[16rem] pointer-events-none bg-modal-bg font-normal flex flex-col justify-between`}
             style={{
               ...modal.style,
               position: "absolute", // Ensure cards are absolute
