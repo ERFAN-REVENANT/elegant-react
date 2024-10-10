@@ -7,27 +7,27 @@ const Letstalk = () => {
       <h1 className="text-white font-lufga-medium text-center text-5xl mt-10">
         Let’s Talk
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 p-10 items-center gap-3 justify-center min-h-screen min-w-full">
+      <div className="grid grid-cols-1 lg:grid-cols-3 p-10 items-center gap-3 justify-center min-h-screen w-full">
         {contact.map((item, index) => {
           const isMiddle = index === 1;
-          const isFirstOrLast = index === 0 || index === contact.length - 1;
+          const isLast = index === contact.length - 1;
 
           return (
             <div
               key={item.id}
-              className={`flex flex-col justify-between p-10 h-[600px] w-[450px] ${
+              className={`flex flex-col justify-between p-10 h-[600px] w-full max-w-[450px] mx-auto ${
                 item.field ? "bg-opacity-30 backdrop-blur-md" : ""
               } ${
-                isFirstOrLast
-                  ? "rounded-[30px]" // First and Last Div: 30px border radius
+                isLast
+                  ? "rounded-[30px] block" // Last Div: 30px border radius and always visible
                   : isMiddle
-                  ? "rounded-tl-[30px] rounded-br-[30px] rounded-tr-[200px] rounded-bl-[200px]" // Middle Div: specific corners
-                  : ""
+                  ? "lg:rounded-tl-[30px] lg:rounded-br-[30px] lg:rounded-tr-[150px] lg:rounded-bl-[150px] hidden lg:flex" // Middle Div: rounded corners
+                  : "rounded-[30px] hidden lg:block" // First Div: 30px border radius, hide for below lg
               }`}
               style={{
                 backgroundImage: `url(${image6})`,
-                backgroundSize: item.style.backgroundSize,
-                backgroundPosition: item.style.backgroundPosition,
+                backgroundSize: item.style?.backgroundSize,
+                backgroundPosition: item.style?.backgroundPosition,
               }}
             >
               {item.field && (
